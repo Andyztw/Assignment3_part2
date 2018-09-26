@@ -30,6 +30,12 @@ public class ICalculateTest {
 
 	@Test
 	public void testTimesTwo() {
-		Assert.assertEquals((vOne * vTwo), calc.timesTwo(vOne, vTwo), 0.1);	}
+		Assert.assertEquals((vOne * vTwo), calc.timesTwo(vOne, vTwo), 0.1);	
+	}
+	
+	@Test
+	public void testdivideTwo() {
+		Assert.assertEquals((vOne / vTwo), calc.divideTwo(vOne, vTwo), 0.1);
+	}
 
 }
