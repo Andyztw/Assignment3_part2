@@ -16,4 +16,8 @@ public class ICalculate {
 	public double divideTwo(double one, double two) {
 		return one/two;
 	}
+	
+	public double minusTwo(double one , double two) {
+		return one - two;
+	}
 }
