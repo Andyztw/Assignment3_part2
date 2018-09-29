@@ -43,8 +43,5 @@ public class ICalculateTest {
 		Assert.assertEquals((vOne - vTwo), calc.minusTwo(vOne, vTwo), 0.1);
 	}
 	
-	@Test
-	public void testminusTwo2() {
-		Assert.assertEquals((vTwo - vOne), calc.minusTwo(vOne, vTwo), 0.1);
-	}
+	
 }
